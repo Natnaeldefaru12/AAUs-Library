@@ -6,6 +6,9 @@ body{
 }
 header{
     height:100vh;
+    background-image: url('images/Binary Kit/Binary_black_012.png');
+    background-size: cover;
+    background-position: center;
 }
 
 h1{
