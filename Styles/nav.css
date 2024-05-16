@@ -2,7 +2,7 @@ nav{
     display: inline-block;
     vertical-align: top;
     display:flex;
-    margin-bottom: 0;
+    margin-bottom: 0;   
     margin-top: 0;
     font-weight: bold;
     justify-content: space-between;
@@ -13,8 +13,6 @@ header a{
     color:white;
   
     text-decoration: none;
-    
-
     position: relative;
 }
 .under{
