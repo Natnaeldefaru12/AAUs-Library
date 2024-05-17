@@ -10,18 +10,18 @@ article{
 }
 #availability{
    
-    width:32.2%;
+    width:34.5%;
     height:90%;
-    padding: 32px;
-}
-#imgs{
-    display: flex;
-    justify-content: center;
-}
-#availability h3{
-    display:block;
+    padding: 20px;
+    padding-bottom: 43px;
 }
 
+#availability h3{
+   margin: 0;
+}
+#availability img{
+padding-bottom:0;
+}
 
 body{
     margin:2% 5.5%;
@@ -32,16 +32,19 @@ body{
 #book-return-rate p{
 margin:0;
 }
-h4{
-    
-    margin: 10px 0;
-}
+
 #book-return-rate{
-    width:55%;
+    width:52.5%;
 }
 #borrowing-trend{
     display:flex;
     height:40%;
+}
+#borrowing-trend h3{
+    margin-bottom:10px;
+}
+#borrowing-trend p{
+    margin:0;
 }
 
 #borrow-and-rest{
@@ -64,15 +67,21 @@ h4{
     width:250px;
 }
 #category h3{
-    font-size: larger;
+    font-size: x-large;
+}
+#categraph{
+    width:65%;
+    display: flex;
 }
 #circle-thing{
     display: flex;
     align-items: center;
     background-color:white;
-    margin:0 15px;
-    border-radius: 15px;
+  
+    padding: 21px;
+    border-radius: 18px;
 }
+
 .common{
     padding:25px;
     background-color: white;
@@ -90,6 +99,11 @@ h4{
     width: 100%;
     height:100%;
 }
+.flexy{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 h1{
     font-size: 60px;
     margin-bottom: 20px;
@@ -97,6 +111,10 @@ h1{
 h2{
     text-align: center;
     font-size: 40px;
+}
+h4{
+    
+    margin: 10px 0;
 }
 header{
     height:100vh;
@@ -125,6 +143,11 @@ header{
     border: none;
     outline: none;
 }
+#imgs{
+    padding: 20px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+}
 input::placeholder{
     font-size: 20px;
     font-family: raleway;
@@ -150,6 +173,9 @@ input::placeholder{
     height:45%;
     width:100%;
 }
+#simple-rules h3{
+    text-align: center;
+}
 
 .subjects{
     font-weight: bold;
@@ -166,4 +192,11 @@ font-size: xx-large;
 }
 #the-rest-container h3{
     font-size: x-large;
+}
+.tiny-ones{
+    display:flex;
+    justify-content: space-between;
+}
+.tiny-ones h4{
+    margin:0;
 }
