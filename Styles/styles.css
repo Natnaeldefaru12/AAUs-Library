@@ -1,3 +1,12 @@
+.acommons{
+    width:31.2%;
+    height: 500px;
+    padding:10;
+    background-color: white;
+    color:black;
+    border-radius: 18px;
+    overflow: hidden;
+}
 .add{
     display: flex;
 }
@@ -16,15 +25,31 @@ article{
     padding-bottom: 43px;
 }
 
-#availability h3{
+#availability h3{   
    margin: 0;
 }
 #availability img{
 padding-bottom:0;
 }
-
+.background {
+    width:100%;
+    height:79.5%;
+    justify-content: center;
+    background-image: url("../images/stacked-waves-haikei.svg"), url("../images/wave-haikei.svg");
+    background-position: top, bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: auto;
+     /* Adjust as necessary */
+}
+.background h3{
+    margin-top: 45px;
+    font-size: x-large;
+}
 body{
     margin:2% 5.5%;
+    /* margin:0; */
     font-family: raleway;
    background-color: rgb(139, 167, 169);
     color:white;
@@ -73,6 +98,11 @@ margin:0;
     width:65%;
     display: flex;
 }
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 #circle-thing{
     display: flex;
     align-items: center;
@@ -109,23 +139,25 @@ h1{
     margin-bottom: 20px;
 }
 h2{
+    margin-top:0;
+    margin-bottom: 50px;
     text-align: center;
-    font-size: 40px;
+    font-size: 41px;
 }
 h4{
     
     margin: 10px 0;
 }
 header{
-    height: 100vh;
-}
-.hero{
-    background-size: 609px;
+    margin:0;
+    background-size: 625px;
     background-position: center; 
     background-image: url("../images/Binary Kit/Black/Binary_black_012.png");
     background-repeat: no-repeat; 
-    z-index: -1;
-    background-attachment: fixed; /* Ensures the background image is fixed */
+    background-attachment: fixed; 
+    height: 100vh;
+}
+.hero{
     margin-top: 0;
     display:flex;
     justify-content: space-between;
@@ -159,13 +191,14 @@ input::placeholder{
 }
 .infographics{
     margin-top: 0;
+    padding-bottom:100px;
     background-image: url("../images/Binary Kit/Black/Binary_black_001.png");
-    background-size: 609px;
+    background-size: 625px;
     background-position: center; 
     background-repeat: no-repeat; 
     z-index: -1;
     background-attachment: fixed; /* Ensures the background image is fixed */
-    margin-top: 0;
+  
 
 }
 .infographics h3{
@@ -177,15 +210,43 @@ input::placeholder{
     height:100%;
     background-color: rgba(0, 0, 0, 0.795);
 }
-
+.margin{
+    margin:auto;
+}
+.padd{
+    padding:20px;
+}
 #return-and-circle{
     display:flex;
     justify-content: space-between;
     height:45%;
     width:100%;
 }
-#simple-rules h3{
-    text-align: center;
+section{
+    margin:0;
+}
+#simple-rules{
+    background-image: url("../images/Binary Kit/Black/Binary_black_002.png");
+    background-size: 625px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1;
+    background-attachment: fixed;
+}
+#simpler-rules{
+
+    margin:auto;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#simple-rules img{
+    padding-top: 25px;
+    width:180px;
+    height:180px;
+  
 }
 
 
@@ -212,3 +273,4 @@ font-size: xx-large;
 .tiny-ones h4{
     margin:0;
 }
+
