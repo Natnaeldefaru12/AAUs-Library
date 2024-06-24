@@ -1,177 +1,246 @@
-.acommons{
-    width:31.2%;
+.acommons {
+    width: 31.2%;
     height: 500px;
-    padding:10;
+    padding: 10;
     background-color: white;
-    color:black;
+    color: black;
     border-radius: 18px;
     overflow: hidden;
 }
-.add{
+
+.add {
     display: flex;
 }
-.add p{
+
+.add p {
     font-weight: bold;
-} 
-article{
-    width:40%;
-    height:40%;
 }
-#availability{
-   
-    width:34.5%;
-    height:90%;
+
+article {
+    width: 40%;
+    height: 40%;
+}
+
+#availability {
+
+    width: 34.5%;
+    height: 90%;
     padding: 20px;
     padding-bottom: 43px;
 }
 
-#availability h3{   
-   margin: 0;
+#availability h3 {
+    margin: 0;
 }
-#availability img{
-padding-bottom:0;
+
+#availability img {
+    padding-bottom: 0;
 }
+
 .background {
-    width:100%;
-    height:79.5%;
+    width: 100%;
+    height: 79.5%;
     justify-content: center;
     background-image: url("../images/stacked-waves-haikei.svg"), url("../images/wave-haikei.svg");
     background-position: top, bottom;
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 0;
     margin: auto;
-     /* Adjust as necessary */
+    /* Adjust as necessary */
 }
-.background h3{
+
+.background h3 {
     margin-top: 45px;
     font-size: x-large;
 }
-body{
-    margin:2% 5.5%;
-    /* margin:0; */
+
+body {
+    margin: 0;
     font-family: raleway;
-   background-color: rgb(139, 167, 169);
-    color:white;
-}
-#book-return-rate p{
-margin:0;
+    background-color: rgb(139, 167, 169);
+    color: white;
 }
 
-#book-return-rate{
-    width:52.5%;
-}
-#borrowing-trend{
-    display:flex;
-    height:40%;
-}
-#borrowing-trend h3{
-    margin-bottom:10px;
-}
-#borrowing-trend p{
-    margin:0;
+#book-return-rate p {
+    margin: 0;
 }
 
-#borrow-and-rest{
+#book-return-rate {
+    width: 52.5%;
+}
 
-    width:60%;
-    height:104%;
-    display:flex;
+#borrowing-trend {
+    display: flex;
+    height: 40%;
+}
+
+#borrowing-trend h3 {
+    margin-bottom: 10px;
+}
+
+#borrowing-trend p {
+    margin: 0;
+}
+
+#borrow-and-rest {
+
+    width: 60%;
+    height: 104%;
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-#category-continer{
-    margin:0px auto;
-    display:flex;
-    width:1050px;
-    height:27vh;
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+#first-button {
+    background-image: url("../images/cloudy-sky.jpg");
+    background-size: cover;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+      width: 180px;
+    height: 50px;
+    margin-bottom: 100px;
+}
+
+#first-button:hover {
+    background-image: none;
+    color: rgb(51, 51, 51);
+    background-color: white;
+}
+
+#category-continer {
+    margin: 0px auto;
+    display: flex;
+    width: 1050px;
+    height: 27vh;
     border-radius: 18px;
 }
-#category{
-    width:250px;
+
+#category {
+    width: 250px;
 }
-#category h3{
+
+#category h3 {
     font-size: x-large;
 }
-#categraph{
-    width:65%;
+
+#categraph {
+    width: 65%;
     display: flex;
 }
-.center{
-    display:flex;
+
+.center {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-#circle-thing{
+
+#circle-thing {
     display: flex;
     align-items: center;
-    background-color:white;
-  
+    background-color: white;
+
     padding: 21px;
     border-radius: 18px;
 }
 
-.common{
-    padding:25px;
+.common {
+    padding: 25px;
     background-color: white;
-    color:black;
+    color: black;
     border-radius: 18px;
 }
-#except-h2{
+.cominp{
+    margin:40px;
+    border-radius: 10px;
+    width:400px;
+    height:50px;
+
+}
+#contact-us{
+    margin:0 100px;
+}
+#except-h2 {
     display: flex;
     justify-content: space-between;
     height: auto;
 }
-.firstimg{
+
+.firstimg {
     display: inline-block;
     margin-top: 120px;
     width: 100%;
-    height:100%;
+    height: 100%;
 }
-.flexy{
-    display:flex;
+
+.flexy {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-h1{
+
+#gradient {
+    margin: 0;
+    background: linear-gradient(rgb(129, 129, 128), rgb(139, 167, 169));
+}
+
+h1 {
     font-size: 60px;
     margin-bottom: 20px;
 }
-h2{
-    margin-top:0;
+
+h2 {
+    margin-top: 0;
     margin-bottom: 50px;
     text-align: center;
     font-size: 41px;
 }
-h4{
-    
+
+h4 {
+
     margin: 10px 0;
 }
-header{
-    margin:0;
+
+header {
+
+    margin: 0 5.5% 2% 5.5% ;
+    margin-bottom: 0;
+    padding-top: 25px;
     background-size: 625px;
-    background-position: center; 
+    background-position: center;
     background-image: url("../images/Binary Kit/Black/Binary_black_012.png");
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
 }
-.hero{
+
+.hero {
     margin-top: 0;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.hero article p{
+
+.hero article p {
     margin-top: 0;
-    font-size: 25px;
+    padding:10px 0;
+    font-size: 24px;
 }
-.hero article input{
-    margin-top: 65px;
-    width:450px;
-    height:40px;
+
+.hero article {
+    padding-top: 35px;
+}
+.hero article input {
+    margin-top: 37px;
+    width: 478px;
+    height: 40px;
     border-radius: 7px;
     box-shadow: none;
     text-indent: 15px;
@@ -179,98 +248,119 @@ header{
     border: none;
     outline: none;
 }
-#imgs{
-    padding: 20px 20px 0 20px;
+#main-section{
+    display:flex;
+}
+#imgs {
+    padding:0;
     display: flex;
     justify-content: center;
 }
-input::placeholder{
-    font-size: 20px;
-    font-family: raleway;
-    text-indent: 15px;
+input{
+    display:block;
 }
-.infographics{
+input::placeholder {
+    font-size: 17.9px;
+    font-family: raleway;
+    text-indent: 14px;
+}
+
+.infographics {
     margin-top: 0;
-    padding-bottom:100px;
+    padding-bottom: 100px;
     background-image: url("../images/Binary Kit/Black/Binary_black_001.png");
     background-size: 625px;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     z-index: -1;
-    background-attachment: fixed; /* Ensures the background image is fixed */
-  
+    background-attachment: fixed;
+    /* Ensures the background image is fixed */
+
 
 }
-.infographics h3{
-    margin:0;
+
+.infographics h3 {
+    margin: 0;
 }
-.line{
-    margin:10px;
-    width:2px;
-    height:100%;
+
+.line {
+    margin: 10px;
+    width: 2px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.795);
 }
-.margin{
-    margin:auto;
+
+.margin {
+    margin: auto;
 }
-.padd{
-    padding:20px;
+
+.padd {
+    padding: 20px;
 }
-#return-and-circle{
-    display:flex;
+
+#return-and-circle {
+    display: flex;
     justify-content: space-between;
-    height:45%;
-    width:100%;
+    height: 45%;
+    width: 100%;
 }
-section{
-    margin:0;
+
+section {
+    margin: 0;
 }
-#simple-rules{
+
+#simple-rules {
     background-image: url("../images/Binary Kit/Black/Binary_black_002.png");
     background-size: 625px;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     z-index: -1;
     background-attachment: fixed;
 }
-#simpler-rules{
 
-    margin:auto;
-    width:80%;
+#simpler-rules {
+
+    margin: auto;
+    margin-bottom: 100px;
+    width: 960px;
     display: flex;
     justify-content: space-between;
 }
 
 
-#simple-rules img{
+#simple-rules img {
     padding-top: 25px;
-    width:180px;
-    height:180px;
-  
+    width: 180px;
+    height: 180px;
+
 }
 
 
-.subjects{
+.subjects {
     font-weight: bold;
 }
-.subjects h3{
-font-size: xx-large;
-}
-#the-rest-container{
-    margin:20px auto;
-    display:flex;
-    justify-content: space-between;
-    width:1100px;
-    height:72.3vh;
-}
-#the-rest-container h3{
-    font-size: x-large;
-}
-.tiny-ones{
-    display:flex;
-    justify-content: space-between;
-}
-.tiny-ones h4{
-    margin:0;
+
+.subjects h3 {
+    font-size: xx-large;
 }
 
+#the-rest-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 72.3vh;
+}
+
+#the-rest-container h3 {
+    font-size: x-large;
+}
+
+.tiny-ones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tiny-ones h4 {
+    margin: 0;
+}
