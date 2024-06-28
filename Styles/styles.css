@@ -97,22 +97,6 @@ body {
     justify-content: center;
 }
 
-#first-button {
-    background-image: url("../images/cloudy-sky.jpg");
-    background-size: cover;
-    font-size: 20px;
-    border-radius: 8px;
-    font-weight: bold;
-      width: 180px;
-    height: 50px;
-    margin-bottom: 100px;
-}
-
-#first-button:hover {
-    background-image: none;
-    color: rgb(51, 51, 51);
-    background-color: white;
-}
 
 #category-continer {
     margin: 0px auto;
@@ -149,29 +133,82 @@ body {
     padding: 21px;
     border-radius: 18px;
 }
+   
 
 .common {
+    
     padding: 25px;
     background-color: white;
     color: black;
     border-radius: 18px;
 }
-.cominp{
-    margin:40px;
-    border-radius: 10px;
-    width:400px;
-    height:50px;
 
+#cominp1{
+    padding-top: 0;
+    margin-top: 0;
+}
+#cominp3{
+    margin-top: 0;
+    height:10rem;
+    padding-top: 10px;
+    text-align: left;
+    vertical-align: top;
 }
 #contact-us{
-    margin:0 100px;
+    width:82%;
+    margin:0 auto;
+    padding-bottom: 120px;
+    
+    background-size: 625px;
+    background-image: url("../Images/Binary Kit/Black/Binary_black_011.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#contact-us iframe{
+    border-radius: 15px;
+}
+#contact-us button{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: transparent;
+    outline: none;
+    border: 2px white solid;
+    width:385px;
+    height:53px;
+    border-radius: 8px;
+    margin:0 40px;
 }
 #except-h2 {
     display: flex;
     justify-content: space-between;
     height: auto;
 }
+#first-button {
+    background: url("../Images/cloudy-sky.jpg");
+    background-size: contain;
+    background-position:center;
+    background-attachment:fixed;
+    border: 2px solid white;
+    font-size: 24px;
+    border-radius: 9px;
+    font-weight: bold;
+    color: white;
+    width: 190px;
+    height: 52px;
+    margin-bottom: 100px;
+    transition: ease-in-out;
+}
 
+#first-button:hover {
+    background-image: none;
+    color: rgb(51, 51, 51);
+    background-color: white;
+}
+#first-foot{
+    width:30%;
+}
 .firstimg {
     display: inline-block;
     margin-top: 120px;
@@ -183,6 +220,34 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+footer{
+    padding:10px;
+    height:100vh;
+    background-color:rgb(6, 9, 39) ;
+    background-size: 625px;
+    background-image: url("../Images/Binary Kit/Black/Binary_black_011.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer a {
+    text-decoration: none;
+    color:white;
+}
+footer p{
+    margin:0;
+}
+#footer-text{
+    padding:0 66px;
+    display:flex;
+    justify-content: space-between;
+}
+footer ul{
+    font-size: 0.8rem;
+    list-style: none;
+    padding:0;
+    margin:0;
 }
 
 #gradient {
@@ -206,7 +271,11 @@ h4 {
 
     margin: 10px 0;
 }
-
+h5{
+    font-size: 1.2rem;
+    margin:0;
+    padding-bottom: 20px;
+}
 header {
 
     margin: 0 5.5% 2% 5.5% ;
@@ -248,9 +317,7 @@ header {
     border: none;
     outline: none;
 }
-#main-section{
-    display:flex;
-}
+
 #imgs {
     padding:0;
     display: flex;
@@ -260,11 +327,30 @@ input{
     display:block;
 }
 input::placeholder {
-    font-size: 17.9px;
+    font-size: 16.9px;
     font-family: raleway;
-    text-indent: 14px;
 }
+.inpp::placeholder {
+    font-size: 13px;
+    font-family: raleway;
+    font-weight:600;
+    
+}
+#inputs{
+    margin:0;
+    padding:0;
+}
+.inpp{
+    border: none;
+    outline: none;
+    margin:20px 40px;
+    border-radius: 10px;
+    width:380px;
+    height:50px;
+    text-indent: 14px;
 
+   
+}
 .infographics {
     margin-top: 0;
     padding-bottom: 100px;
@@ -274,7 +360,7 @@ input::placeholder {
     background-repeat: no-repeat;
     z-index: -1;
     background-attachment: fixed;
-    /* Ensures the background image is fixed */
+ 
 
 
 }
@@ -289,11 +375,36 @@ input::placeholder {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.795);
 }
+#links{
+    width:60%;
+    margin:0 60px;
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 80px;
+}
+#links a{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.836);
+    font-weight: 700;
+    text-decoration: none;
+}
+#links div{
+        padding:8px;
 
+}
+#main-section{
+    display:flex;
+    justify-content: space-between;
+}
 .margin {
     margin: auto;
 }
-
+#map{
+    
+    border: 20px solid rgba(255,255,255,0.2) ;
+    border-radius: 30px;
+    height:460px;
+}
 .padd {
     padding: 20px;
 }
@@ -335,7 +446,20 @@ section {
 
 }
 
+.social-icons{
+    display:flex;
+    align-items: center;
 
+}
+.social-icons i {
+    padding:10px;
+}
+.social-icons svg{
+    padding-right: 10px;
+    width:32px;
+    height:32px;
+    color:#283D3B;
+}
 .subjects {
     font-weight: bold;
 }
@@ -363,4 +487,20 @@ section {
 
 .tiny-ones h4 {
     margin: 0;
+}
+#video{
+    width:57.2%;
+    height: 71.3%;
+    padding-top: 5px;
+    margin:20px auto;
+    text-align: center;
+    border-radius: 22px;
+    
+    background-color: rgba(158, 151, 151, 0.3);
+    
+}
+footer iframe{
+    margin:auto;
+    border-radius: 8%;
+    padding:0;
 }
