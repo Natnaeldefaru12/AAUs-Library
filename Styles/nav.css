@@ -49,14 +49,14 @@ header a{
     width:33%;
 }
 #nav2{
-    width:16%;
+    width:15%;
 }
 #white{
     background-color: rgba(241, 239, 239, 0.918);
     color:rgb(40, 61, 59);
     height:26px;
     border-radius: 8px;
-    padding:3px 18px;
+    padding:3px 22px;
 }
 #narrow{
     width:22%;

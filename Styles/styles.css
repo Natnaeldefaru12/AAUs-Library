@@ -58,7 +58,9 @@ article {
 body {
     margin: 0;
     font-family: raleway;
-    background-color: rgb(139, 167, 169);
+    background-image: url(../Images/blob-scatter-haikei.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
     color: white;
 }
 
@@ -179,6 +181,11 @@ body {
     height:53px;
     border-radius: 8px;
     margin:0 40px;
+    transition: linear 0.4s;
+}
+#contact-us button:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.829);
 }
 #except-h2 {
     display: flex;
@@ -211,7 +218,7 @@ body {
 }
 .firstimg {
     display: inline-block;
-    margin-top: 120px;
+    margin-top: 92.5px;
     width: 100%;
     height: 100%;
 }
@@ -252,7 +259,11 @@ footer ul{
 
 #gradient {
     margin: 0;
-    background: linear-gradient(rgb(129, 129, 128), rgb(139, 167, 169));
+    background: linear-gradient(rgba(129, 129, 128,1), rgba(139, 167, 169,0));
+    /* opacity: 0.5; */
+    /* background-image: url(../Images/blob-scatter-haikei.svg);
+    background-repeat: no-repeat;
+    background-size:cover; */
 }
 
 h1 {
@@ -280,7 +291,7 @@ header {
 
     margin: 0 5.5% 2% 5.5% ;
     margin-bottom: 0;
-    padding-top: 25px;
+    padding-top: 27px;
     background-size: 625px;
     background-position: center;
     background-image: url("../images/Binary Kit/Black/Binary_black_012.png");
@@ -304,10 +315,10 @@ header {
 }
 
 .hero article {
-    padding-top: 35px;
+    padding-top: 33px;
 }
 .hero article input {
-    margin-top: 37px;
+    margin-top: 62px;
     width: 478px;
     height: 40px;
     border-radius: 7px;
