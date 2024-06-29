@@ -67,11 +67,18 @@ h1{
     
 
   }
-span{
+  #US  a{
     width:10%;
     padding:2% 6%;
     background-color: rgba(39, 38, 38, 0.918);
     color: white;
     border-radius: 10px;
     font-size: 18px;
+    text-decoration: none;
+    transition: ease-in-out 0.3s
+}
+#US a:hover{
+    color: rgba(39, 38, 38, 0.918);
+    background-color: white;
+    border: 3px solid rgba(39, 38, 38, 0.918);
 }
