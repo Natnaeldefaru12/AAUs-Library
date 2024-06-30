@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(138, 167, 168);
+    background-image: none;
+}
+header{
+    padding-top: 20px;
+    background-image: none;
+    height:initial;
+}
+main{
+    padding: 25px 0;
+    height:79vh;
+    display: flex;
+    align-items: center;
+}
+#login-main{
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width:52.7%;
+    height:89%;
+}
+#intro{
+    text-align: center;
+    background-color: rgb(24, 114, 121);
+    padding:3.9%;
+    height:100%;
+    width:37%;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+#intro h1 {
+    margin:77.35px 0px 20px 0px;
+    font-size: 1.9rem;
+}
+#intro p{
+    font-size: 1.27rem;
+    margin-bottom:50px;
+}
+#intro a {
+    background-color:white;
+    color:black;
+    text-decoration: none;
+    height:15%;
+    width:50%;
+    font-size: large;
+    padding:19px 35px;
+    margin:20px auto;
+  border-radius: 40px;
+  font-weight: bold;
+  transition:ease-in-out 0.5s;
+}
+#intro a:hover{
+    color:white;
+    border:2px solid white; 
+    background-color:rgb(24, 114, 121);
+}
+#login{
+    background-color: rgb(197, 218, 219);
+    height:100%;
+    padding:3%;
+    width:62%;
+
+}
+#login h2{
+    color:rgba(0, 0, 0, 0.767);
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#login input {
+    width:85%;
+    margin:10px auto;
+    padding:14px 20px;
+    border-radius: 3px;
+    margin:10px;
+    outline: none;
+    border: none;
+}
+#login input::placeholder{
+    font-size: small;
+}
+#login p{
+    color:rgba(0, 0, 0, 0.705);
+    margin:30px;
+    font-size: medium;
+    text-align: center;
+}
+#login p:hover{
+    cursor: pointer;
+}
+#login button{
+    display:block;
+    background-color:rgb(24, 114, 121);
+    color:white;
+    text-decoration: none;
+    height:13%;
+    line-height: 12%;
+    width:32%;
+    font-size: large;
+    padding:22px 35px;
+    margin:20px auto;
+    border-radius: 40px;
+    font-weight: bold;
+    outline: none;
+    border:none;
+    transition: ease-in-out 0.3s;
+
+}
+#login a{
+    text-align: center;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.774);
+}
+#login button:hover{
+    background-color: rgb(51, 50, 50);
+
+}
+#am-admin{
+    text-align:center;
+    margin:auto;
+}
