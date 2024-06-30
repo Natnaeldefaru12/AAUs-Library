@@ -125,3 +125,6 @@ input {
     text-align:center;
     margin:auto;
 }
+#nav2{
+justify-content: right;
+}

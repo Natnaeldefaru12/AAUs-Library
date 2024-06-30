@@ -70,4 +70,6 @@ font-weight: 500;
 margin-top: 30px;
 margin-bottom: 0;
 }
-
+#nav2{
+    justify-content: right;
+    }

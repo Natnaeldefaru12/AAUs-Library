@@ -49,9 +49,8 @@ header a{
     width:33%;
 }
 #nav2{
-    width:14%;
-    display:flex;
-    justify-content: right;
+    width:16%;
+
 }
 #white{
     background-color: rgba(241, 239, 239, 0.918);
